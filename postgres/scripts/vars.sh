@@ -10,6 +10,8 @@ export POSTGRES_DATABASE=ldbcsnb
 export POSTGRES_USER=postgres
 export POSTGRES_DATA_DIR=`pwd`/scratch/data
 export POSTGRES_DDL_DIR=`pwd`/ddl/
+export POSTGRES_CSV_DIR=`pwd`/csv/
+export POSTGRES_CUSTOM_CONFIGURATION=`pwd`/config/
 export POSTGRES_PORT=5432
 
 cd scripts
